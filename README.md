@@ -17,7 +17,7 @@ Details of the repository structure and contribution guidelines are listed on th
 Here is a quick starter summary for common use cases.
 
 
-## How to add files
+## How to add files via command line
 
 - Fork the repository to your own GitHub account
 - Clone fork and create new branch:
@@ -40,6 +40,21 @@ git push origin <branch_name>
 - From your repo clone page make a new PR (pull request)
 - If you PR doesn't pass the automated test suite, please update your PR and push again
 - Once the automated test suite passes, a Dharma admin will be notified to approve the PR
+
+
+### Add files via the web UI
+
+- Fork the repository to your own GitHub account
+- Find the file you want to update. Use the [folder structure](https://www.notion.so/teamdharma/Repository-Details-b96fbfa6973d449e8526aef323b16c88#6c63d3c92fea44c4acf9a3a499cbf946) docs to help you navigate. For this example, let's use the `COMP` metadata file [here](https://github.com/pxr13/defi-tokens-wiki/blob/master/token-metadata/0xc00e94Cb662C3520282E6f5717214004A7f26888/metadata.json).
+- Next, click the edit icon in the UI
+
+    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2d80a00-fe32-4c84-9c4a-53a6841d5a6a/Screenshot_2020-09-15_at_11.31.58_AM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2d80a00-fe32-4c84-9c4a-53a6841d5a6a/Screenshot_2020-09-15_at_11.31.58_AM.png)
+
+- Make your changes. Use the [repository details docs](https://www.notion.so/teamdharma/Repository-Details-b96fbfa6973d449e8526aef323b16c88#6c63d3c92fea44c4acf9a3a499cbf946) to ensure you are using the correct formatting.
+- Commit your changes and create a new branch using the modal at the bottom of the page
+- If you PR doesn't pass the automated test suite, please update your PR and push again
+- Wait for your PR to be approved by an admin
+
 
 ## Adding Token Metadata
 - Fork the Github repository
